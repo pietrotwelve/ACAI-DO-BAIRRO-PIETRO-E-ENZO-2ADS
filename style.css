@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 16px;
+  background: #f6f0fa;
+}
+
+h1 { color: #5b1f86; }
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type=text], input:not([type]), select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 4px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  font-size: 18px;
+  color: white;
+  background: #5b1f86;
+  border: 0;
+  border-radius: 8px;
+}
+
+.erro { color: red; }
+#resultado { white-space: pre-line; font-weight: bold; }
